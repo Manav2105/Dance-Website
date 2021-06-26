@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee Sans+Lacquer&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Lacquer';
+}
+
+#logo{    
+    display: flex;
+    color: black;
+    align-items: center;
+    margin: 0px 12px;
+    font-size: 32px;
+    margin-right: 60px;
+}
+
+#logo img{
+    height: 42px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+#navbar{
+    background-color: #acccac;
+    padding: 20px 0px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+#navbar li a:hover{
+    color: white;
+    font-family: 'Odibee Sans', cursive;
+}
+
+#introSection{
+    color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 35px;
+    align-items: center;
+    background: center/cover no-repeat url(/static/dance.jpg);
+    padding-bottom: 100px;
+    height: 696px;
+    background-color: aqua;
+}
+
+#introSection div{
+    font-size: 55px;
+}
+
+
+#introSection div:hover{
+    color: red;
+    cursor: pointer;
+    font-family: 'Odibee Sans', cursive;
+}
+
+
+.small{
+    font-size: 27px;
+    padding: 5px;
+}
+
+
+
+
+#missionSection{
+    height: 785px;
+    background-color: #acccac;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    color: white;
+}
+
+#missionSection h2:hover{
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Odibee Sans', cursive;
+}
+
+#missionSection p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.card{
+    height: 580px;
+    border: 2px solid green;
+    border-radius: 80px;
+    width: 30%;
+    margin: 47px 25px;
+    display: inline-block;
+    background: radial-gradient(white, transparent);
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-size: 30px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 275px;
+    padding: 0px 71px;
+}
+
+.card-img img{
+    height: 340px;
+    margin: 49px 0px;
+}
+
+#sponsorSection{
+    height: 250px;
+    background-color: #c2c2c2;
+    padding: 0px 393px;
+}
+
+#sponsorSection h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    color: black;
+    
+}
+
+#sponsorSection h2:hover{
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Odibee Sans', cursive;
+}
+
+#sponsor{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage{
+    height: 100px;
+    margin: 20px;
+}
+
+#footer{
+    height: 100px;
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Odibee Sans', cursive;
+}

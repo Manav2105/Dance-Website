@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee Sans+Lacquer&display=swap');
+
+
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.container{
+    height: 75vh;
+    font-family: 'Odibee Sans';
+}
+
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.myInput{
+    width: 40%;
+    padding: 10px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid green;
+    border-radius: 27px;
+    outline: none;
+}
+
+.btn{
+    padding: 10px 21px;
+    font-size: 18px;
+    border: 2px solid green;
+    border-radius: 17px;
+    background: #e6fce6;
+    cursor: pointer;
+    margin: 16px;
+    font-family: 'Odibee Sans', cursive;
+}
+
+.btn:hover{
+    font-weight: bold;
+    font-family: 'Odibee Sans';
+}
